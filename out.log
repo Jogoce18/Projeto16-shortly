@@ -1,0 +1,100 @@
+2022-08-08T16:36:57.974653+00:00 app[api]: Initial release by user gomezjohana655@gmail.com
+2022-08-08T16:36:57.974653+00:00 app[api]: Release v1 created by user gomezjohana655@gmail.com
+2022-08-08T16:36:58.173036+00:00 app[api]: Enable Logplex by user gomezjohana655@gmail.com
+2022-08-08T16:36:58.173036+00:00 app[api]: Release v2 created by user gomezjohana655@gmail.com
+2022-08-08T16:37:48.015331+00:00 app[api]: Running release v3 commands by user gomezjohana655@gmail.com
+2022-08-08T16:37:48.015331+00:00 app[api]: Attach DATABASE (@ref:postgresql-dimensional-36319) by user gomezjohana655@gmail.com
+2022-08-08T16:37:48.030420+00:00 app[api]: Release v4 created by user gomezjohana655@gmail.com
+2022-08-08T16:37:48.030420+00:00 app[api]: @ref:postgresql-dimensional-36319 completed provisioning, setting DATABASE_URL. by user gomezjohana655@gmail.com
+2022-08-08T16:45:47.000000+00:00 app[api]: Build started by user gomezjohana655@gmail.com
+2022-08-08T16:46:03.483127+00:00 app[api]: Release v5 created by user gomezjohana655@gmail.com
+2022-08-08T16:46:03.483127+00:00 app[api]: Deploy 1d41ca01 by user gomezjohana655@gmail.com
+2022-08-08T16:46:03.498768+00:00 app[api]: Scaled to web@1:Free by user gomezjohana655@gmail.com
+2022-08-08T16:46:04.000000+00:00 app[api]: Build succeeded
+2022-08-08T16:46:07.224625+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-08-08T16:46:09.229070+00:00 app[web.1]: 
+2022-08-08T16:46:09.229165+00:00 app[web.1]: > projeto16-shortly@1.0.0 start
+2022-08-08T16:46:09.229166+00:00 app[web.1]: > node index.js
+2022-08-08T16:46:09.229166+00:00 app[web.1]: 
+2022-08-08T16:46:09.625776+00:00 app[web.1]: Mode: DEV
+2022-08-08T16:46:09.626077+00:00 app[web.1]: Server is up on port: 38534
+2022-08-08T16:46:10.184675+00:00 heroku[web.1]: State changed from starting to up
+2022-08-08T16:48:20.759406+00:00 app[web.1]: /app/node_modules/pg-protocol/dist/parser.js:287
+2022-08-08T16:48:20.759419+00:00 app[web.1]: const message = name === 'notice' ? new messages_1.NoticeMessage(length, messageValue) : new messages_1.DatabaseError(messageValue, length, name);
+2022-08-08T16:48:20.759420+00:00 app[web.1]: ^
+2022-08-08T16:48:20.759421+00:00 app[web.1]: 
+2022-08-08T16:48:20.759422+00:00 app[web.1]: error: no pg_hba.conf entry for host "3.84.243.28", user "kswfsobamcsbcn", database "d3lv7or49cah1s", no encryption
+2022-08-08T16:48:20.759423+00:00 app[web.1]: at Parser.parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:287:98)
+2022-08-08T16:48:20.759423+00:00 app[web.1]: at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:126:29)
+2022-08-08T16:48:20.759424+00:00 app[web.1]: at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:39:38)
+2022-08-08T16:48:20.759424+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:11:42)
+2022-08-08T16:48:20.759425+00:00 app[web.1]: at Socket.emit (node:events:527:28)
+2022-08-08T16:48:20.759426+00:00 app[web.1]: at addChunk (node:internal/streams/readable:315:12)
+2022-08-08T16:48:20.759426+00:00 app[web.1]: at readableAddChunk (node:internal/streams/readable:289:9)
+2022-08-08T16:48:20.759426+00:00 app[web.1]: at Socket.Readable.push (node:internal/streams/readable:228:10)
+2022-08-08T16:48:20.759427+00:00 app[web.1]: at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+2022-08-08T16:48:20.759427+00:00 app[web.1]: length: 171,
+2022-08-08T16:48:20.759427+00:00 app[web.1]: severity: 'FATAL',
+2022-08-08T16:48:20.759428+00:00 app[web.1]: code: '28000',
+2022-08-08T16:48:20.759428+00:00 app[web.1]: detail: undefined,
+2022-08-08T16:48:20.759428+00:00 app[web.1]: hint: undefined,
+2022-08-08T16:48:20.759428+00:00 app[web.1]: position: undefined,
+2022-08-08T16:48:20.759429+00:00 app[web.1]: internalPosition: undefined,
+2022-08-08T16:48:20.759429+00:00 app[web.1]: internalQuery: undefined,
+2022-08-08T16:48:20.759429+00:00 app[web.1]: where: undefined,
+2022-08-08T16:48:20.759429+00:00 app[web.1]: schema: undefined,
+2022-08-08T16:48:20.759429+00:00 app[web.1]: table: undefined,
+2022-08-08T16:48:20.759430+00:00 app[web.1]: column: undefined,
+2022-08-08T16:48:20.759430+00:00 app[web.1]: dataType: undefined,
+2022-08-08T16:48:20.759430+00:00 app[web.1]: constraint: undefined,
+2022-08-08T16:48:20.759430+00:00 app[web.1]: file: 'auth.c',
+2022-08-08T16:48:20.759431+00:00 app[web.1]: line: '545',
+2022-08-08T16:48:20.759431+00:00 app[web.1]: routine: 'ClientAuthentication'
+2022-08-08T16:48:20.759431+00:00 app[web.1]: }
+2022-08-08T16:48:20.763222+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=POST path="/signup" host=shortly-vadarcerto.herokuapp.com request_id=60ed3635-6477-4dc2-9936-918f5ae7fce8 fwd="168.121.193.130" dyno=web.1 connect=0ms service=105ms status=503 bytes=0 protocol=https
+2022-08-08T16:48:20.900360+00:00 heroku[web.1]: Process exited with status 1
+2022-08-08T16:48:21.030934+00:00 heroku[web.1]: State changed from up to crashed
+2022-08-08T16:48:21.033807+00:00 heroku[web.1]: State changed from crashed to starting
+2022-08-08T16:48:23.185874+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-08-08T16:48:25.283124+00:00 app[web.1]: 
+2022-08-08T16:48:25.283137+00:00 app[web.1]: > projeto16-shortly@1.0.0 start
+2022-08-08T16:48:25.283138+00:00 app[web.1]: > node index.js
+2022-08-08T16:48:25.283138+00:00 app[web.1]: 
+2022-08-08T16:48:25.601314+00:00 app[web.1]: Mode: DEV
+2022-08-08T16:48:25.601542+00:00 app[web.1]: Server is up on port: 29897
+2022-08-08T16:48:25.660165+00:00 heroku[web.1]: State changed from starting to up
+2022-08-08T16:57:18.370685+00:00 app[web.1]: /app/node_modules/pg-protocol/dist/parser.js:287
+2022-08-08T16:57:18.370694+00:00 app[web.1]: const message = name === 'notice' ? new messages_1.NoticeMessage(length, messageValue) : new messages_1.DatabaseError(messageValue, length, name);
+2022-08-08T16:57:18.370694+00:00 app[web.1]: ^
+2022-08-08T16:57:18.370695+00:00 app[web.1]: 
+2022-08-08T16:57:18.370696+00:00 app[web.1]: error: no pg_hba.conf entry for host "3.236.156.74", user "kswfsobamcsbcn", database "d3lv7or49cah1s", no encryption
+2022-08-08T16:57:18.370697+00:00 app[web.1]: at Parser.parseErrorMessage (/app/node_modules/pg-protocol/dist/parser.js:287:98)
+2022-08-08T16:57:18.370697+00:00 app[web.1]: at Parser.handlePacket (/app/node_modules/pg-protocol/dist/parser.js:126:29)
+2022-08-08T16:57:18.370698+00:00 app[web.1]: at Parser.parse (/app/node_modules/pg-protocol/dist/parser.js:39:38)
+2022-08-08T16:57:18.370698+00:00 app[web.1]: at Socket.<anonymous> (/app/node_modules/pg-protocol/dist/index.js:11:42)
+2022-08-08T16:57:18.370699+00:00 app[web.1]: at Socket.emit (node:events:527:28)
+2022-08-08T16:57:18.370700+00:00 app[web.1]: at addChunk (node:internal/streams/readable:315:12)
+2022-08-08T16:57:18.370700+00:00 app[web.1]: at readableAddChunk (node:internal/streams/readable:289:9)
+2022-08-08T16:57:18.370700+00:00 app[web.1]: at Socket.Readable.push (node:internal/streams/readable:228:10)
+2022-08-08T16:57:18.370701+00:00 app[web.1]: at TCP.onStreamRead (node:internal/stream_base_commons:190:23) {
+2022-08-08T16:57:18.370701+00:00 app[web.1]: length: 172,
+2022-08-08T16:57:18.370702+00:00 app[web.1]: severity: 'FATAL',
+2022-08-08T16:57:18.370702+00:00 app[web.1]: code: '28000',
+2022-08-08T16:57:18.370703+00:00 app[web.1]: detail: undefined,
+2022-08-08T16:57:18.370703+00:00 app[web.1]: hint: undefined,
+2022-08-08T16:57:18.370703+00:00 app[web.1]: position: undefined,
+2022-08-08T16:57:18.370704+00:00 app[web.1]: internalPosition: undefined,
+2022-08-08T16:57:18.370704+00:00 app[web.1]: internalQuery: undefined,
+2022-08-08T16:57:18.370704+00:00 app[web.1]: where: undefined,
+2022-08-08T16:57:18.370705+00:00 app[web.1]: schema: undefined,
+2022-08-08T16:57:18.370705+00:00 app[web.1]: table: undefined,
+2022-08-08T16:57:18.370705+00:00 app[web.1]: column: undefined,
+2022-08-08T16:57:18.370705+00:00 app[web.1]: dataType: undefined,
+2022-08-08T16:57:18.370706+00:00 app[web.1]: constraint: undefined,
+2022-08-08T16:57:18.370706+00:00 app[web.1]: file: 'auth.c',
+2022-08-08T16:57:18.370706+00:00 app[web.1]: line: '545',
+2022-08-08T16:57:18.370707+00:00 app[web.1]: routine: 'ClientAuthentication'
+2022-08-08T16:57:18.370707+00:00 app[web.1]: }
+2022-08-08T16:57:18.379893+00:00 heroku[router]: at=error code=H13 desc="Connection closed without response" method=POST path="/signin" host=shortly-vadarcerto.herokuapp.com request_id=b7c808ec-ec43-4692-b737-52a881148f2b fwd="168.121.193.130" dyno=web.1 connect=0ms service=36ms status=503 bytes=0 protocol=https
+2022-08-08T16:57:18.494990+00:00 heroku[web.1]: Process exited with status 1
+2022-08-08T16:57:18.650863+00:00 heroku[web.1]: State changed from up to crashed
