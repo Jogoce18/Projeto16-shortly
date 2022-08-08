@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/shortly-api">
+  <a href="https://github.com/Jogoce18/Projeto16-shortly">
     <img src="https://github.com/NivaldoFarias/shortly-api/blob/main/assets/shortly-api-logo.png" alt="Logo" width="120">
   </a>
 
